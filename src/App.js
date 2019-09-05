@@ -1,10 +1,10 @@
 import React from 'react';
-import HelloWorld from './state-drills/hello-world'
+import Bomb from './state-drills/bomb'
 
 function App() {
   return (
     <main className='App'>
-      <HelloWorld />
+      <Bomb />
     </main>
   );
 }

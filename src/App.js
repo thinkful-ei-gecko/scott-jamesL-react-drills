@@ -1,10 +1,10 @@
 import React from 'react';
-import Bomb from './state-drills/bomb'
+import RouletteGun from './state-drills/RouletteGun'
 
 function App() {
   return (
     <main className='App'>
-      <Bomb />
+      <RouletteGun bulletInChamber={8} />
     </main>
   );
 }
